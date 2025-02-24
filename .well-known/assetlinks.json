@@ -1,0 +1,27 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "wit.android.bcpBankingApp.millenniumPLuat",
+    "sha256_cert_fingerprints":
+    ["B2:25:53:56:E5:9F:76:8E:9A:BD:AA:19:0D:D8:C3:44:FA:9A:44:99:0F:AB:17:BD:D8:E8:83:71:7F:F8:55:9A"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "wit.android.bcpBankingApp.millenniumPLquality",
+    "sha256_cert_fingerprints":
+    ["B2:25:53:56:E5:9F:76:8E:9A:BD:AA:19:0D:D8:C3:44:FA:9A:44:99:0F:AB:17:BD:D8:E8:83:71:7F:F8:55:9A"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "wit.android.bcpBankingApp.millenniumPL",
+    "sha256_cert_fingerprints":
+    ["0B:5C:55:66:21:72:B7:E7:E0:EC:EF:C3:2B:07:D5:1F:30:DF:9F:BE:04:C4:F1:EC:5E:F9:58:E3:7A:01:11:A8"]
+  }
+}]

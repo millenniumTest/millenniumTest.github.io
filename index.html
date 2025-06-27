@@ -1,3 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Otwórz URL</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    input[type="text"] {
+      width: 700px;
+      padding: 5px;
+      font-size: 16px;
+    }
+    button {
+      padding: 6px 12px;
+      font-size: 16px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
 Test deep link
 
 <hr class="solid">
@@ -19,3 +44,19 @@ Mille Testowe linki
 <a href="https://links.bankmillennium.pl/links/DepositHub?portalId=deeplinksT11"> DepositHub </a>
 </br></br>
 
+<hr class="solid">
+MyID
+</br></br>
+  <input type="text" id="urlInput" value="https://links.bankmillennium.pl/links/MyIdRelease?clientAssertion=" />
+  <button onclick="openURL()">GO</button>
+
+    <script>
+    function openURL() {
+      const url = document.getElementById("urlInput").value;
+      const validURL = url.startsWith('http://') || url.startsWith('https://') ? url : 'https://' + url;
+      window.open(validURL, '_blank');
+    }
+  </script>
+
+  </body>
+</html>
